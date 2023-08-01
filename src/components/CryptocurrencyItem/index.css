@@ -1,0 +1,54 @@
+/* Write your CSS code here */
+/* Write your CSS code here */
+/* index.css */
+
+.CryptoCurrencyItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.logo-and-title-container {
+  display: flex;
+  align-items: center;
+}
+
+.currency-logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.currency-name {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.usd-and-euro-value-container {
+  display: flex;
+  align-items: center;
+}
+
+.currency-value {
+  font-size: 14px;
+  margin-right: 15px;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 600px) {
+  .CryptoCurrencyItem {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .currency-logo {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .currency-value {
+    margin-right: 0;
+  }
+}
